@@ -25,7 +25,7 @@ Software design is about optimizing for two _dramatically_ different audiences, 
 
 ### Computers
  - Complexity
- - Large volumes of data
+ - Lots of data
  - Dynamism — many things changing at once, continuously
  - Precision
  - Repetition
@@ -47,26 +47,44 @@ Simple, well-defined units with clean boundaries are easy to reason about _indep
 
 [Unknown unknowns](https://en.wikipedia.org/wiki/There_are_known_knowns) — Unexpected failure modes are, by definition, unexpected. We can only write tests for failure we can anticipate.
 
-Interaction complexity: one service invokes another using a callback that invokes a third, which, due to an unanticipated set of conditions, unexpectedly re-invokes the first, resulting in indirect mutual recursion.
+Integration complexity: one service invokes another using a callback that invokes a third, which, due to an unanticipated set of conditions, unexpectedly re-invokes the first, resulting in indirect mutual recursion.
 
 ### Instead of a type system
 
-...
+From the prior two points (unexpected failures & integration complexity), we can correctly infer that it is unreasonable to expect that (a) all units will always be called with expected values, or (b) that all units will correctly handle (_and_ be test-covered for) all values that will be passed to it in production.
 
-## References
+### The state of the art: necessary, but insufficient
+
+Even in a strongly-typed, pure functional language, automated testing only provides a few programmer-predicted snapshots of behavior within a universe of possible outcomes. Long-term, the only real solution for guaranteed software reliability is something like [total functional programming](http://www.jucs.org/jucs_10_7/total_functional_programming/jucs_10_07_0751_0768_turner.pdf), or other sub-Turing-complexity techniques that facilitate verification analogous to mathematical proofs; see also: [Epigram](http://cs.ru.nl/~freek/courses/tt-2010/tvftl/epigram-notes.pdf), [Coq](https://coq.inria.fr/a-short-introduction-to-coq).
+
+## Resources
+
+An aggregated collection of resources which may or may not be referenced in the book itself.
+
+### Front-end
  - [React Stateless Functional Components: Nine Wins You Might Have Overlooked](https://hackernoon.com/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc)
  - [Machine-checked explicit state: An arrow in the heart of complex web applications](https://blog.reifyworks.com/machine-checked-explicit-state-an-arrow-in-the-heart-of-complex-web-applications-bbe1ef2038ed)
 
-***
+### Concepts
+
+ - [The Mostly Adequate Guide to Functional Programming](https://drboolean.gitbooks.io/mostly-adequate-guide/content/) — Dr. Boolean (aka Brian Lonsdorf)
+ - [Making Impossible States Impossible](https://www.youtube.com/watch?v=IcgmSRJHu_8) — Richard Feldman
+ - [_Beyond_ series](http://blog.ircmaxell.com/search/label/Beyond) — Anthony Ferrara
+ - [_Boundaries_](https://www.destroyallsoftware.com/talks/boundaries) — Gary Bernhardt
+
+
+### Abstractions
+
+ - [Promises](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
+ - [You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/)
+
+### Theory
 
  - [_The Mythical Man Month_](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) — Fred Brooks
  - [_The Design of Design_](https://www.amazon.com/Design-Essays-Computer-Scientist/dp/0201362988) — Fred Brooks
- - [_Beyond_ series](http://blog.ircmaxell.com/search/label/Beyond) — Anthony Ferrara
- - [_Boundaries_](https://www.destroyallsoftware.com/talks/boundaries) — Gary Bernhardt
  - [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy) — Rich Hickey
  - [Media for Thinking the Unthinkable](http://worrydream.com/MediaForThinkingTheUnthinkable/) — Bret Victor
  - [The Future Doesn't Have to Be Incremental](https://www.youtube.com/watch?v=gTAghAJcO1o) — Alan Kay
- - [Making Impossible States Impossible](https://www.youtube.com/watch?v=IcgmSRJHu_8) — Richard Feldman
 
 ## Quotes
 
