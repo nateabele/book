@@ -71,6 +71,7 @@ An aggregated collection of resources which may or may not be referenced in the 
  - [Making Impossible States Impossible](https://www.youtube.com/watch?v=IcgmSRJHu_8) — Richard Feldman
  - [_Beyond_ series](http://blog.ircmaxell.com/search/label/Beyond) — Anthony Ferrara
  - [_Boundaries_](https://www.destroyallsoftware.com/talks/boundaries) — Gary Bernhardt
+ - [The Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) — Uncle Bob
 
 
 ### Abstractions
