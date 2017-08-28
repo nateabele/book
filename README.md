@@ -84,6 +84,7 @@ An aggregated collection of resources which may or may not be referenced in the 
  - [_The Mythical Man Month_](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) — Fred Brooks
  - [_The Design of Design_](https://www.amazon.com/Design-Essays-Computer-Scientist/dp/0201362988) — Fred Brooks
  - [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy) — Rich Hickey
+ - [The Value of Values](https://www.infoq.com/presentations/Value-Values) — Rich Hickey
  - [Media for Thinking the Unthinkable](http://worrydream.com/MediaForThinkingTheUnthinkable/) — Bret Victor
  - [The Future Doesn't Have to Be Incremental](https://www.youtube.com/watch?v=gTAghAJcO1o) — Alan Kay
 
