@@ -72,7 +72,9 @@ An aggregated collection of resources which may or may not be referenced in the 
  - [_Beyond_ series](http://blog.ircmaxell.com/search/label/Beyond) — Anthony Ferrara
  - [_Boundaries_](https://www.destroyallsoftware.com/talks/boundaries) — Gary Bernhardt
  - [The Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) — Uncle Bob
-
+ - [What's Functional Programming All About?](http://www.lihaoyi.com/post/WhatsFunctionalProgrammingAllAbout.html)
+ - [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy) — Rich Hickey
+ - [The Value of Values](https://www.infoq.com/presentations/Value-Values) — Rich Hickey
 
 ### Abstractions
 
@@ -83,8 +85,6 @@ An aggregated collection of resources which may or may not be referenced in the 
 
  - [_The Mythical Man Month_](https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959) — Fred Brooks
  - [_The Design of Design_](https://www.amazon.com/Design-Essays-Computer-Scientist/dp/0201362988) — Fred Brooks
- - [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy) — Rich Hickey
- - [The Value of Values](https://www.infoq.com/presentations/Value-Values) — Rich Hickey
  - [Media for Thinking the Unthinkable](http://worrydream.com/MediaForThinkingTheUnthinkable/) — Bret Victor
  - [The Future Doesn't Have to Be Incremental](https://www.youtube.com/watch?v=gTAghAJcO1o) — Alan Kay
 
