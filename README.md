@@ -80,6 +80,7 @@ An aggregated collection of resources which may or may not be referenced in the 
 
  - [Promises](https://developers.google.com/web/fundamentals/getting-started/primers/promises)
  - [You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/)
+ - [Indirection is Not Abstraction](https://www.silasreinagel.com/blog/2018/10/30/indirection-is-not-abstraction/)
 
 ### Theory
 
